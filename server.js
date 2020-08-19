@@ -14,7 +14,7 @@ app.use(methodOverride('_method'));
 const mongoURI = process.env.MONGO_URI; //M
 // mongoose connection
 
-const PORT = process.env.port || 3000;
+const PORT = process.env.PORT || 3000;
 
 mongoose.connect(mongoURI, {
     useNewUrlParser: true, useUnifiedTopology:true
